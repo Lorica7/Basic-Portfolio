@@ -2,39 +2,58 @@
     <html>
         <head>
             <title>
-                Contact Danielle
+                D.LaMorte's Portfolio
             </title>
             <meta charset="UTF-8">
             <meta name="author" description="Danielle LaMorte">
             <link rel="stylesheet" href="assets/css/reset.css">
             <link rel="stylesheet" href="assets/css/style.css">
+            <style>
+            body {
+                background-image: url("subtle_stripes.png");
+                background-repeat: repeat;
+                }
+            </style>
+            
         </head>
         <body>
             <header>
-                <h1>Danielle LaMorte</h1>
+                <h1 id="Name">Danielle LaMorte</h1>
+                <div id="middle"><p>Space</p></div>
                 <nav>
-                        <ul>
-                            <li>Contact</li>
-                            <li>Portfolio</li>
-                            <li>About</li>
-                        </ul>
-                    </nav>
-                    <section>
-                        <h2>Contact</h2>
-                        <hr>
-                        <form>
-                            Name:<br>
-                            <input type="text">
-                            <br>
-                            Email<br>
-                            <input type="text">
-                            <br>
-                            Message<br>
-                            <textarea name="message" rows="10" cols="60"></textarea>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </section>
+                    <ul>
+                        <li id="List1">
+                            <a href="#Contact">Contact</a>
+                        </li>
+                        <li id="List2">
+                            <a href="#Portfolio">Portfolio</a>
+                        </li>
+                        <li id="List3">
+                            <a href="#About">About</a>
+                        </li>
+                    </ul>
+                </nav>
             </header>
-
+            <main>
+                <div class="margins">
+                <h1>Contact</h1>
+                <hr>
+                <form>
+                    Name:<br>
+                    <input type="text" placeholder="Jane Doe" id="InName">
+                    <br>
+                     Email<br>
+                    <input type="text" placeholder="example@example.com" id="InEmail">
+                    <br>
+                    Message<br>
+                    <textarea name="message" rows="10" cols="141"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" id="button">
+                </form>
+                 </div>
+            </main>
+            <footer>
+                <p>Copyright&copy;</p>
+            </footer>
         </body>
     </html>
