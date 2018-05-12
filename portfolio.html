@@ -8,23 +8,37 @@
             <meta name="author" description="Danielle LaMorte">
             <link rel="stylesheet" href="assets/css/reset.css">
             <link rel="stylesheet" href="assets/css/style.css">
-           <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+            <style>
+            body {
+                background-image: url("subtle_stripes.png");
+                background-repeat: repeat;
+                }
+            </style>
+            
         </head>
         <body>
             <header>
-                <h1>Danielle Patricia LaMorte</h1>
+                <h1 id="Name">Danielle LaMorte</h1>
+                <div id="middle"><p>Space</p></div>
                 <nav>
                     <ul>
-                        <li>Contact</li>
-                        <li>Portfolio</li>
-                        <li>About</li>
-                    </ul>
-                </nav>
+                    <li id="List1">
+                        <a href="#Contact">Contact</a>
+                    </li>
+                    <li id="List2">
+                        <a href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li id="List3">
+                        <a href="#About">About</a>
+                    </li>
+                </ul>
+            </nav>
             </header>
-            <main class ="Portfolio">
+            <main>
+                <div class="margins">
                 <h1>Portfolio</h1>
                 <hr>
-                <div class="projects">
+                    <div class="projects">
                     <ul>
                         <li id="#Hangman">Hangman</li>
                         <li id="#Rogue">Rogue-like RPG</li>
@@ -35,6 +49,11 @@
                         <li id="Interface">Realty App Interface</li>
                         </li>
                     </ul>
-                </div>
-                
+                    </div> 
+                 </div>
             </main>
+            <footer>
+                <p>Copyright&copy;</p>
+            </footer>
+        </body>
+    </html>
